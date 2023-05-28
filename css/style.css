@@ -1,0 +1,124 @@
+.hidden {
+  display: none;
+}
+#momentumwrap {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.content {
+  margin: 15px;
+}
+
+.time {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  width: auto;
+  height: 150px;
+  font-size: 100px;
+  color: white;
+}
+.login {
+  padding: 10px;
+}
+
+#login-form input {
+  border: none;
+  border-radius: 2px;
+  width: 200px;
+  height: 30px;
+}
+
+#login-form button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: auto;
+  height: auto;
+  color: orange;
+}
+#greeting {
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+#user {
+  font-size: 100px;
+  font-style: italic;
+}
+
+#todo-form input {
+  width: 500px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+
+#todo-list li {
+  margin: 10px;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+}
+
+#todo-list li button {
+  padding: 1px;
+  margin-left: 5px;
+  border: none;
+  background-color: transparent;
+  color: red;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.quote {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: goldenrod;
+}
+
+.quote span {
+  padding: 5px;
+}
+
+.quote span:first-child {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.quote span:last-child {
+  padding: 5px;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 20px;
+  position: left;
+}
+
+.weather {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: violet;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+}
