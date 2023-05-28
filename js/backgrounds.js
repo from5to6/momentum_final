@@ -9,6 +9,6 @@ const chosenImg = images[Math.floor(Math.random() * images.length)];
 
 document.getElementById(
   "momentumwrap"
-).style.background = `url(../img/${chosenImg})`;
+).style.background = `url(https://from5to6.github.io/img/${chosenImg})`;
 
 document.getElementById("momentumwrap").style.backgroundSize = "cover";
