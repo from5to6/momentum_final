@@ -12,3 +12,5 @@ document.getElementById(
 ).style.background = `url(https://from5to6.github.io/img/${chosenImg})`;
 
 document.getElementById("momentumwrap").style.backgroundSize = "cover";
+
+console.log("변경되었니?????");
